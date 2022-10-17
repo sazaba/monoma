@@ -121,6 +121,11 @@
                     width: 45px;
                     margin: 0%;
                     padding: 0%;
+
+                    @media screen and (max-width: $small) {
+
+                        width: 30px;
+                    }
                 }
 
                 p {
@@ -130,6 +135,12 @@
                     font-weight: bolder;
                     margin: 0%;
                     padding: 0%;
+
+                    @media screen and (max-width: $small) {
+
+                        font-size: 9px;
+                    }
+
 
                 }
             }
@@ -145,6 +156,11 @@
                 font-size: 30px;
                 font-family: $font;
                 font-weight: bold;
+
+                @media screen and (max-width: $small) {
+
+                    font-size: 20px;
+                }
             }
 
             img {
@@ -210,10 +226,22 @@
             color: $principal;
             font-family: $font;
             font-size: 20px;
+
+            @media screen and (max-width: $small) {
+
+                font-size: 15px;
+            }
+
         }
 
         img {
             width: 270px;
+
+            @media screen and (max-width: $small) {
+
+                width: 150px;
+            }
+
         }
     }
 
