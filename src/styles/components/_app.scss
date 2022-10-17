@@ -1,5 +1,6 @@
 .app_container {
     padding: 4px 130px;
+    box-sizing: border-box;
 
 
     @media screen and (max-width: $small) {

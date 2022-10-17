@@ -61,6 +61,11 @@
                 width: 45px;
                 margin: 0%;
                 padding: 0%;
+
+                @media screen and (max-width: $small) {
+
+                    width: 35px;
+                }
             }
 
             p {
@@ -70,6 +75,11 @@
                 font-weight: bolder;
                 margin: 0%;
                 padding: 0%;
+
+                @media screen and (max-width: $small) {
+
+                    font-size: 9px;
+                }
 
             }
         }
@@ -81,12 +91,22 @@
             font-size: 30px;
             font-family: $font;
             font-weight: bold;
+
+            @media screen and (max-width: $small) {
+
+                font-size: 25px;
+            }
         }
     }
 
     .info_button {
         img {
             width: 150px;
+
+            @media screen and (max-width: $small) {
+
+                width: 80px;
+            }
         }
     }
 }
