@@ -1,0 +1,8 @@
+.app_container {
+    padding: 4px 130px;
+
+
+    @media screen and (max-width: $small) {
+        padding: 4px 30px;
+    }
+}
