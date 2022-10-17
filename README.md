@@ -1,7 +1,9 @@
 App Deploy:
 
 https://monoma.vercel.app
+
 🚀 Getting started
+
 If you want to run the site locally, you can:
 
 Clone the project.
